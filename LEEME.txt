@@ -1,0 +1,19 @@
+## Requisitos
+
+Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
+
+- **PHP**: Versión 8.2 o superior.
+- **PostgreSQL**: Como gestor de base de datos version 14.
+- **Servidor Web**: Apache, Nginx o cualquier servidor compatible con PHP.
+
+-----Instalacion-----
+1. Clona este repositorio en el directorio raíz de tu servidor web local (por ejemplo, htdocs para XAMPP o www para WAMP):
+git clone https://github.com/JCristhianV/Registro-Productos.git
+Ejecuta el script database.sql en tu gestor de base (postgresql de prefenencia) de datos para crear la tabla necesaria.
+Configura tu conexión a la base de datos en el archivo conexion.php;
+Inicia tu servidor web, si estás usando PHP con su servidor web incorporado, puedes ejecutar:
+php -S localhost:8000
+Accede a la aplicacion:
+Abre tu navegador y ve a http://localhost:8000/index.html o http://localhost/sistema-registro-productos/ si usas XAMPP.
+
+
